@@ -1,0 +1,83 @@
+/* 
+HOJA ESTILOS CV ARGENTINA PROGRAMA 4.0 - TICMAS
+ESTILO OSCURO DE CURRICULUM
+*/
+*{
+	margin: 2px ;
+	box-sizing: border-box;
+	color: #fffaf0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+body{
+	background-color: #737373;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contenedor{
+	width: 75%;
+	max-width: 1200px;
+	min-height: 120px;
+	background-color: #a9acaf;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.izquierdo{
+	position: initial;
+	background-color: #413c40;
+	padding: 15px;
+
+}
+.derecho{
+	position: initial;
+	background-color: #545454;
+	padding: 20px;
+
+}
+.inf_contacto, .habilidades, .idiomas, .titulo,
+.resumen, .experiencia, .formacion{
+	margin-bottom: 30px;
+}
+
+
+.foto_perfil {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 17px;
+}
+img{
+    border: 5px solid dimgrey;
+	width: 300;
+    height: 300;
+}
+
+table{
+    font-family: arial;
+    border-collapse: separate;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+
+.botones{
+	margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+}
+#modos{
+	color: black;
+}
